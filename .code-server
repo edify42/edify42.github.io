@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PORT=9001
+
+code-server . -N -p "$PORT"

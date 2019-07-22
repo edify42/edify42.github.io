@@ -1,4 +1,4 @@
-// Register.vue
+// Contact.vue
 
 <template>
     <div>

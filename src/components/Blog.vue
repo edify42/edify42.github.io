@@ -1,5 +1,5 @@
 <template>
-  <div class="landing">
+  <div class="main">
     <h1>{{ msg }}</h1>
     <p>
       Tiny Hop is a company dedicated to building things that work.
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'Landing',
+  name: 'Blog',
   props: {
     msg: String
   }
@@ -32,5 +32,12 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.main {
+  max-width: 38rem;
+  padding: 1rem;
+  margin: auto;
+  min-width: 400px; 
 }
 </style>

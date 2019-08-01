@@ -7,6 +7,7 @@
     <b-navbar-brand to="/">TINY HOP</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item to="/">Home</b-nav-item>
+      <b-nav-item to="/services">Services</b-nav-item>
       <b-nav-item to='/blog'>Blog</b-nav-item>
       <b-nav-item to='/contact'>Contact Us</b-nav-item>
     </b-navbar-nav>

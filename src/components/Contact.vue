@@ -40,7 +40,7 @@
                 <div class="final-message" v-if="errorMessage.length > 0">{{ this.errorMessage }}</div>
             </form>
         </div>
-        <button @click='debugClick()'>Open/Close {{ btnActive }}</button>
+        <!-- <button @click='debugClick()'>Open/Close {{ btnActive }}</button> -->
     </div>
     
 </template>

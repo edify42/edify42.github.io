@@ -1,20 +1,23 @@
 <template>
   <div id="main">
     <b-navbar
-    toggleable="md"
+    toggleable="lg"
     type="light"
     variant="light">
-    <b-navbar-brand to="/">TINY HOP</b-navbar-brand>
+    <b-navbar-brand href="#">TINY HOP</b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
     <b-navbar-nav>
       <b-nav-item to="/">Home</b-nav-item>
       <b-nav-item to="/services">Services</b-nav-item>
       <b-nav-item to='/blog'>Blog</b-nav-item>
       <b-nav-item to='/contact'>Contact Us</b-nav-item>
     </b-navbar-nav>
-    <b-nav-form class="right">
-      <b-form-input class="mr-sm-2" placeholder="Nothing to search"></b-form-input>
-      <b-button variant="outline-success" class="my-2 my-sm-0" type="submit">Search</b-button>
+    <b-nav-form class="ml-auto">
+      <b-form-input class="mr-sm-2" size="sm" placeholder="Nothing to search"></b-form-input>
+      <b-button variant="outline-success" size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
     </b-nav-form>
+    </b-collapse>
   </b-navbar>
     <img class="center" alt="Vue logo" src="./assets/brand.png">
     <router-view />
